@@ -1,0 +1,184 @@
+ <!Doctype HTML>
+<html>
+    <head>
+            <link href="JSAssign.css" rel="stylesheet">
+
+            <script src="jsAssignment.js"></script> 
+
+   </head>
+    <body>
+        <!-- 12.  Get 2nd  ‘A’ character from “I am from Angular Avengers” using charAt -->
+            <p>CharAt() Function</p>
+
+            <button onclick="Fun_ChatAt()">Try it</button>
+
+            <p id="demo6"></p>
+
+        <!--   13.  Get ascii code for  ‘A’ character from “I am from Angular Avengers”. -->
+        <p>CharCodeAt() Function</p>
+
+        <button onclick="Fun_CharCodeAt()">Try it</button>
+
+        <p id="demo7"></p>
+
+         <!--    14. Combine below string.”. -->
+            <p>Concat() Function</p>
+
+            <button onclick="Fun_Combine()">Try it</button>
+    
+            <p id="demo8"></p>
+
+        <!--   15. Write program to Check if “Angular ”  is part of give string   “I am from Angular Avengers”. -->
+        <p>Includes() Function</p>
+
+        <button onclick="Fun_Includes()">Try it</button>
+
+        <p id="demo9"></p>
+
+        <!--  16 what is difference between lastIndexOf and indexOf write program.
+        indexOf gives the first occurance of given value from string and lastIndexOf gives the last occurance of given value from string-->
+        <p>indexOf() Function</p>
+
+        <button onclick="Fun_indexOf()">Try it</button>
+
+        <p id="demo10"></p>
+
+        <p>lastIndexOf() Function</p>
+
+        <button onclick="Fun_lastIndexOf()">Try it</button>
+
+        <p id="demo11"></p>
+
+        <!--  17. What is replace,search.
+         replace() is string method, which replace a given value with another value in string.
+        search() is string method which search a specified value in given string-->
+
+        <!-- 18. Get ‘Angular’ from “I am from Angular Avengers” using slice method-->
+        <p>slice() Function</p>
+
+        <button onclick="Fun_slice()">Try it</button>
+
+        <p id="demo12"></p>
+
+        <!-- 19 Get ‘Angular’ from “I am from Angular Avengers” using substring method -->
+        <p>subString() Function</p>
+
+        <button onclick="Fun_subString()">Try it</button>
+
+        <p id="demo13"></p>
+
+        <!-- 20 Get ‘Angular’ from “I am from Angular Avengers” using substr method-->
+
+        <p>subStr() Function</p>
+
+        <button onclick="Fun_subStr()">Try it</button>
+
+        <p id="demo14"></p>
+
+        <!--21. What is difference between slice substr and substring method. 
+        SLice - takes -ve values as a parameter
+        substr - Takes second parameter as length
+        suString - Do not accespt -ve values as a parameter.
+        -->
+
+        <!--22. get Get ‘Angular’ from “I am from Angular Avengers” using substring negative start and        end.
+        
+        Answer - It doesnt work as SubString do not accepts -ve vlaues as paramaeters-->
+
+        <!--23. Write function to get sum of 2 numbers.-->
+
+        <p>Addition() of two numbers</p>
+
+        <button onclick="Fun_Add()">Try it</button>
+
+        <p id="demo15"></p>
+        <!--24. Give examples for below operator(give 5 example for all)
+        = ,+= ,-= ,*= ,/= ,%= 
+        -->
+        <p>Operators = ,+= ,-= ,*= ,/= ,%= </p>
+
+        <div>
+            Enter:
+            1 for = 
+            2 for += 
+            3 for -= 
+            4 for *= 
+            5 for /= 
+            6 for %=</div>
+        <input id="getnum" type="number" oninput="Fun_operators()">
+        <p id="demo16"></p>
+
+        <!--25. Give examples for below operator (give 5 examples).
+        == ,===,!= ,!==,>  ,<  ,>= ,<= ,?
+        -->
+        <p>Operators == ,===,!= ,!==,>  ,<  ,>= ,<= ,?</p>
+
+        <div>
+            Enter:
+            1 for == 
+            2 for === 
+            3 for !=
+            4 for !== 
+            5 for >
+            6 for <
+            7 for >=
+            8 for <=
+            9 for ?
+        </div>
+        <input id="getnum1" type="number" oninput="Fun_operators25()">
+        <p id="demo17"></p>
+
+        <!-- 26. What is difference between == and === ? when this is useful. 
+        == : It comapres value between two inputs
+        === : It compares values along with types between two inputs. This is used when we want to check value and type both.-->
+
+        <!--
+            27. What will be output for this and why? 
+            ‘A’==’a’ =>false => because it is case sensitive
+            ‘1’===1 => false = > '1' is string and 1 is number
+            false==true; => false => values are not equal
+            0==false => True => both values are same as boolean value of false is 0.
+            0===false => false => because here there types are not equal.
+            null==undefined. => true => values are same (empty)
+            null===undefined => false => here their type are different
+            5==’five’ => false => As values are different for them
+            'This is test'=='this is test' => false = > because it is case sensitive
+            typeOf null => Object
+
+        -->
+
+        <!--28 . give examples of logical operators(4 examples for each).-->
+        <p>Operators &&, ||, !</p>
+
+        <div>
+            Enter:
+            1 for && 
+            2 for || 
+            3 for !
+        </div>
+        <input id="getnum2" type="number" oninput="Fun_operators28()">
+        <p id="demo18"></p>
+
+        <!--13. Give answer for below.. 
+        typeof {name:'John', age:34} => object
+        typeof  [1,2,3,4,5] => object
+        typeof 5 => number
+        typeof ‘x’ => string
+        typeof false => boolean
+-->
+    <!-- 29. Give examples for Javascript function and how many ways we can create function. 
+    ans: Function is created with function keyword followed by function name and paranthesis(). 
+
+    30.  How to invoke function. 
+    ans: 1) Can be called on occurance of any event
+         2) can be called by JS explicitly
+         3) can be self called like while loading page document.ready() is invoked.
+
+      
+    31.. What is return in function.
+    Functions often compute a return value. The return value is "returned" back to the "caller".
+    -->
+
+
+    </body>
+</html>

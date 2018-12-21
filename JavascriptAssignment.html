@@ -1,0 +1,96 @@
+<!Doctype HTML>
+<html>
+    <head>
+            <link href="JSAssign.css" rel="stylesheet">
+
+            <script src="jsAssignment.js"></script> 
+
+           <script>
+                    function onclick_button()
+                    {
+                        document.getElementById('demo').innerHTML = Date();
+                    }
+            </script>
+
+            
+    </head>
+    <body>
+        <!-- 1. What is Javascript? Why need of javascript.
+        Ans: Javascript is programming langauge of HTML and web and it is used to give behaviour to the webpage. 
+        
+        2.Howmany ways we can add javascript. Give an example.
+        Ans: Inline (Body and Head) and external
+        -->
+        <!-- Inline JS example-->
+    <h2>My First JavaScript</h2>
+
+    <button type="button"
+    onclick="onclick_button()">
+    Click me to display Date and Time.</button>
+
+    <p id="demo"></p>
+    
+    <!-- External JS Example-->
+    <button type="button"
+    onclick="onclick_external()">
+    Click me to display Date and Time 1.</button>  
+
+    <p id="Demo1"></p>
+
+    <!-- 3. InnerHTML and InnerText, Document.write
+        Innertext returns the plain text of the element.
+        InnerHTML returns the HTML content of an element.
+    -->
+    <p id="demo2" onclick="Inner_HTML()">Click me to change my HTML content (innerHTML).</p>
+
+    <p>Click the button get the text content of the button element.</p>
+
+    <button onclick="Inner_text()" id="myBtn">Try it</button>
+    
+    <p id="demo3"></p>
+
+    <!-- 4: We can add comment in two ways in javascript, 
+    1)Single line: //
+    2)Multi Line /* */ -->
+
+    <!-- 5: We can create variable in javascript using "var" keyword. 
+    1) Variable name can contains letter, digit, underscore and dollar signs
+    2)It should start with letter or underscore.
+    3)Names are case-sensitive.
+    4) reserved keywards can not be used as variable names-->
+    
+    <!-- 6: Hoisting : Javascript moves all variable declaration at the top of the scope of the variable.
+    advantage: if We miss to declare the variables, then it add itself.
+    Disadvantage: Hositing work with declaration only, not woth initiallisaion. So, if someone who is unknown about hoisiting can't debug the issue easily.
+
+    How to add avoid it: declare the variable where it is being used.-->
+    
+    <!-- 7: Dataypes:
+    1)Premitive data type :
+        Number, String, Boolean, undefined
+    2) complex data types:
+        Object and function-->
+
+    <!-- 8: Difference between isFinite() and isInteger()
+            1) Syntax:
+                isFinite() 
+                number.isInteger()
+            2)IsFinite : Determines whether number is finite and legal number. it returns true incase of decimal number or number is given as string.
+              IsInteger : Determines whether number is Integer or not. It returns false in case of Decimal number.
+    -->
+
+    <!-- 9: Tofixed and toPrecision-->
+    <button onclick="Fun_toPrecision()">Try it to check toPrecision</button>
+
+    <p id="demo4"></p>
+
+    <button onclick="Fun_toFixed()">Try it to check toFixed</button>
+
+    <p id="demo5"></p>
+
+    <!-- 10: Javascript has only one type of Number. It can be written with or without decimal-->
+
+    <!-- 11: String is series of characters. Any text written in single or doble quotes can be treated as string.  -->
+
+    
+</html>

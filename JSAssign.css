@@ -1,0 +1,31 @@
+.PS_Before::before
+{
+    content: url(smiley.gif);
+}
+
+.PS_After::after
+{
+    content: url(smiley.gif);
+}
+
+.PS_FirstLetter::first-letter
+{
+    color:red;
+
+}
+
+.PS_FirstLine::first-line
+{
+    color:blue;
+}
+
+::selection
+{
+    Color:red;
+    background-color: yellow;
+}
+
+.Opacity1
+{
+    opacity: 0.5;
+}

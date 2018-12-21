@@ -1,0 +1,88 @@
+ <!Doctype HTML>
+<html>
+    <head>
+            <link href="JSAssign.css" rel="stylesheet">
+
+            <script src="jsAssignment.js"></script> 
+
+   </head>
+    <body>
+        <!--17 what is anonymous function, benefits of using anonymous functions
+        ans: Anonymous function is function without name. It is invoked by using its assigned variable name.
+        benefits: These function are created at runtime. No need to decalre it. 
+
+        18. What is use of function and benefits of using function.
+        Ans: Functions are block of code which are used to perform specific task.
+            Benefits:
+            1) We can avoid writing repetative code. 
+        -->
+
+        <!--19.  What is javascript scope. Give examples for local and global storage.
+        Ans: JS scope defined the visibility of the variables
+            Local Scope : Variables declared within functions are having local scope.
+            Global Scope : Variables declared outside the function are having global scope. 
+        -->
+        
+        <!--20. What is declaration of variable in javascript.  
+        Ans : Declaring variable means declaring it scope within that JS code.-->
+
+        <!--
+            21  what will be output for below code, give reason for answer..
+            1. console.log(a); => uncaught error will be thrown 
+            a= 10;console.log(a) => 10 
+            var a= 10
+            function sum(){
+            console.log(a); ===>output will be undefined
+            var a; 
+            }  
+            4. var b= 10;
+                function getUserDetails(){
+                    console.log(a) ==>output will be undefined.
+                    var a=10
+                    }
+            getUserDetails()
+
+            5.  var a= 10;
+                function getUserDetails(){
+                        var a=10;          
+                    console.log(a); ==>output will be 10
+                    a=5;
+                    };
+                    console.log(a); ==> output will 10
+                    getUserDetails()
+                    
+                    6.  b= 10
+                     function getUserDetails(){
+                    Return 0; ==> This is syntax error as it is not accepting return value as zero.
+                    var a= 10;
+                    console.log(a)
+                    }
+                    getUserDetails()
+
+                    7. var a=50;
+                    function getUserDetails(){
+                        console.log(a) ===>output will be undefined.
+                    }
+
+
+        -->
+            
+        <!--
+
+                22. What is object and use of object. What will be type of objects.
+                    How many ways we can create object in  javascript.
+
+                    objects are basic real time entities like person or car, it can be a variable too 
+                    but objects can contain several values.
+
+                    1.Define and create a single object, using an object literal.
+                    2.Define and create a single object, with the keyword new.
+                    3.Define an object constructor, and then create objects of the constructed type.
+        -->
+        <button type="button"
+    onclick="sum1()">
+    Click me to display Date and Time 1.</button>  
+
+        
+    </body>
+</html>
